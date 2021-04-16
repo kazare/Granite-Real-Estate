@@ -1,0 +1,41 @@
+@import "index.css";
+@import "blog.css";
+
+#hero {
+  height: 15vw;
+  background-image: none;
+}
+
+#hero div {
+  width: 100%;
+  height: 100%;
+  background-color: var(--brand-color);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero h1 {
+  text-align: center;
+}
+
+#body {
+  width: 50vw;
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+#body p {
+  margin: 20px auto;
+  line-height: 2em;
+  font-weight: var(--font-reg);
+}
+h2 {
+  margin-top: 50px;
+  font-weight: var(--font-bold);
+}
+
+#postImg {
+  width: 100%;
+}
