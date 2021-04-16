@@ -12,17 +12,12 @@
 .rental {
   width: 400px;
   border: 0.5px #084b25 solid;
-  margin-bottom: 50px;
 }
 
 .rental img {
   width: 100%;
   height: 300px;
   display: block;
-}
-
-.rental:hover {
-  box-shadow: 0px 0px 3px #084b25;
 }
 
 .bar {
