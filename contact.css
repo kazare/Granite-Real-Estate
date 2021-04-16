@@ -37,8 +37,7 @@
 
 #contact {
   width: 50vw;
-  max-width: 500px;
-  margin: 50px auto auto;
+  max-width: 800px;
 }
 
 #contact p {
@@ -59,16 +58,16 @@
 #submit {
   width: auto;
   padding: 5% 20%;
-  border: 2px #084b25 solid;
+  border: 2px var(--brand-color) solid;
   display: inline-block;
   text-decoration: none;
   color: white;
-  background-color: #084b25;
+  background-color: var(--brand-color);
   font-weight: var(--font-reg);
 }
 
 #submit:hover {
-  border: 2px #084b25 solid;
+  border: 2px var(--brand-color) solid;
   background-color: white;
-  color: #084b25;
+  color: var(--brand-color);
 }
