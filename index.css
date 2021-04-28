@@ -25,7 +25,7 @@
   padding: 2%;
 }
 
-#mobileNav li:not(:first-child) a:hover {
+#mobileNav a:hover {
   background-color: var(--brand-color);
   color: white;
 }
