@@ -34,3 +34,14 @@
 .info p {
   margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .rental {
+    width: 90%;
+    margin: auto;
+  }
+
+  .rental img {
+    height: initial;
+  }
+}
