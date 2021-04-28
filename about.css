@@ -77,3 +77,11 @@ h1 {
 .tenure {
   font-weight: var(--font-light);
 }
+
+@media only screen and (max-width: 600px) {
+  #about,
+  #team {
+    width: 90%;
+    margin: auto;
+  }
+}
