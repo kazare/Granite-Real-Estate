@@ -191,6 +191,44 @@ footer {
   text-align: center;
 }
 
+footer a,
+footer a:visited {
+  color: var(--text-color);
+}
+
+#footer-info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.social {
+  font-size: 2em;
+  padding: 20px;
+  display: inline-block;
+}
+
+.social:hover {
+  background-color: var(--text-color);
+  color: var(--brand-color);
+}
+
+#contact-footer {
+  text-align: left;
+  border-left: 1px solid var(--text-color);
+}
+
+#contact-footer ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+#contact-footer a {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
   #mobileNav {
     display: block;
@@ -224,5 +262,12 @@ footer {
 
   .flisting img {
     height: initial;
+  }
+
+  #contact-footer {
+    text-align: center;
+    border-left: none;
+    border-top: 1px solid var(--text-color);
+    border-bottom: 1px solid var(--text-color);
   }
 }
